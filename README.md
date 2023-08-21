@@ -63,6 +63,4 @@ Run the tool and select option 3. Enter your Bearer JWT token and optionally ent
 Author
 shivia
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 

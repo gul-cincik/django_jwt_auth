@@ -7,6 +7,7 @@ User Login: Registered users can log in and receive a JWT token.
 Brewery API: Users can access a brewery API using a JWT token for authentication.
 
 Setup
+
 1.Install Dependencies:
 pip install -r requirements.txt
 

@@ -23,19 +23,43 @@ Breweries: http://127.0.0.1:8000/user/breweries/
 
 Usage
 
-User Registration:
+1.User Registration:
 Make a POST request to http://127.0.0.1:8000/user/register/ with JSON data:
+
 {
   "username": "your_username",
   "password": "your_password"
 }
 
-User Login:
+2.User Login:
 Make a POST request to http://127.0.0.1:8000/user/login/ with JSON data:
+
 {
   "username": "your_username",
   "password": "your_password"
 }
 
-Access Breweries:
+3.Access Breweries:
 Make a GET request to http://127.0.0.1:8000/user/breweries/ with a Bearer JWT token obtained from the login response.
+
+
+Python Tool
+The provided Python tool interacts with the APIs for user registration, login, and accessing breweries.
+
+Usage
+
+1.Register:
+Run the tool and select option 1. Enter username and password.
+
+2.Login:
+Run the tool and select option 2. Enter username and password.
+
+3.Access Breweries:
+Run the tool and select option 3. Enter your Bearer JWT token and optionally enter a query parameter.
+
+Author
+shivia
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+

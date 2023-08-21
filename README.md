@@ -1,4 +1,5 @@
 Django App: User Authentication and Brewery API
+-
 This Django web application provides user registration, login, and access to a brewery API using JSON Web Tokens (JWT) for authentication.
 
 Features
